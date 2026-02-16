@@ -159,14 +159,14 @@ def analyze_with_ollama(email_text, model="llama3"):
 # =========================================================
 def main():
 
-    st.set_page_config(page_title="Hybrid AI Spam Detector", page_icon="⚡", layout="wide")
+    st.set_page_config(page_title="Hybrid AI Email Spam and Phishing Detector", page_icon="⚡", layout="wide")
 
     st.markdown("""
     <h1 style="
         text-align:center;font-size:42px;font-weight:800;
         background:linear-gradient(90deg,#00eaff,#00ff87);
         -webkit-background-clip:text;color:transparent;">
-        📧 Hybrid AI Spam Detector (Groq + Ollama)
+        📧 Hybrid AI Email Spam and Phishing Detector (Groq + Ollama)
     </h1>
     <p style="text-align:center;color:#bbb;">
         Cloud AI ⚡ + Local AI 🔥 + Live Spam Analytics 📊
